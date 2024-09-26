@@ -1,0 +1,61 @@
+body {
+    background-image: url(./img/showcase\ \(1\).jpg);
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+#rubrik {
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 40px;            
+    font-size: 3em;           
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    margin-top: 20px;
+    text-align: center;       
+    white-space: nowrap;      
+}
+
+.artikel {
+    border: 2px solid black; 
+    margin: 20px;
+    padding: 20px;
+    background-color: #d3d3d3; 
+    border-radius: 10px;
+    text-align: left; 
+    
+}
+
+
+h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Stil för textstycken */
+p {
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0; 
+}
+
+
+.bakgrund{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
